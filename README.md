@@ -94,21 +94,6 @@ The model is compiled with the **Adam Optimizer** and the **Binary Cross-Entropy
   * **Binary Cross-Entropy Loss (BCE):** This function measures the dissimilarity between the predicted probability ($\hat{y}$) and the true binary label ($y$). The goal of training is to minimize this loss.
     $$L(y, \hat{y}) = - \frac{1}{N} \sum_{i=1}^{N} [y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i)]$$
 
-### Project Workflow Diagram
-
-The following Mermaid diagram illustrates the end-to-end data flow:
-
-```mermaid
-graph TD
-    A[Start] --> B(Load ChurnPrediction.csv);
-    B --> C{Data Preprocessing: Encoding & Scaling};
-    C --> D(Split Data: Train/Test);
-    D --> E[Build Sequential ANN Model];
-    E --> F(Train Model: Minimize BCE Loss);
-    F --> G(Evaluate Performance);
-    G --> H[Save Trained Model as model.h5];
-    H --> I[End];
-```
 
 -----
 
