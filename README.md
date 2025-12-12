@@ -287,7 +287,7 @@ Annual Savings: $58,080
 
 ***
 
-🔭 Future Work
+## 🔭 Future Work
 Advanced Modeling
 
 Add XGBoost/LightGBM/CatBoost and compare to ANN via AUC, F1, calibration.
@@ -308,7 +308,7 @@ Add drift detection on feature distributions and predicted probabilities.
 
 
 
-📚 References
+## 📚 References
 Kaggle – “Churn Modelling” / “Bank Customer Churn Modelling” datasets.
 
 Research on customer churn prediction and model interpretability analysis.
